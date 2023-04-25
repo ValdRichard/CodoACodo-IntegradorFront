@@ -1,0 +1,10 @@
+.bg-image {
+    background-image: url('assets/ba1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+  }
+
+.text-container{
+    text-align: right;
+}
