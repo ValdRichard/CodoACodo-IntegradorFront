@@ -49,7 +49,7 @@
         </nav>
     </header>
     <main>
-        <div class="container-fluid">
+        <div class="welcome container-fluid">
           <div class="row imgFondo align-items-center flex-row-reverse">
               <div class="col-sm-6 text-white text-end m-5">
                 <h1>Conf Bs As</h1>
@@ -60,7 +60,7 @@
               </div>
           </div>
          </div>
-        <div class="container-fluid">
+        <div class="oradores container-fluid">
           <div class="row align-items-center">
             <div class="col-12 text-center mt-2">
               <p>Conoce a los</p>
@@ -97,7 +97,7 @@
             </div>
           </div>
         </div>
-        <div class="container-fluid p-0 mt-4 border-top border-2">
+        <div class="honolulu container-fluid p-0 mt-4 border-top border-2">
           <div class="row g-1">
             <div class="col-6">
               <img class="img-fluid" src="assets/honolulu.jpg" alt="Imagen de una playa">
@@ -112,9 +112,51 @@
             </div>
           </div>
         </div>
+        <div class="convertiteOrador container-fluid">
+          <div class="row align-items-center">
+            <div class="col-12 text-center mt-4">
+              <p class="text-black-50">CONVIERTE EN UN ORADOR</p>
+              <h2>ORADORES</h2>
+              <p>Anotate como orador para dar una <span class="bottom-dashed">charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
+            </div>
+          </div>
+          <form action="">
+            <div class="row align-items-center">
+              <div class="offset-3 col-3">
+                <div class="input-group mb-3">
+                  <input type="text" placeholder="Nombre" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="input-group mb-3">
+                  <input type="text" placeholder="Apellido" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+              </div>
+              <div class="offset-3 col-6">
+                <div class="form-floating">
+                  <textarea class="form-control h-100" placeholder="Sobre que quieres hablar?" id="floatingTextarea"></textarea>
+                  <label class="form-label text-black-50" for="floatingTextarea">Sobre que quieres hablar?</label>
+                  <small class="text-black-50">Recuerda incluir un titulo a tu charla</small>
+                </div>                
+              </div>
+              <button type="button" class="btn btn-success mt-4 offset-3 col-6">Success</button>
+            </div>
+          </form>
+        </div>
     </main>
-    <footer></footer>
-
+    <footer>
+      <div class="d-flex align-items-center justify-content-center bg-footer text-white mt-4">
+        <div class="row text-center g-5">
+          <div class="col">Preguntas frecuentes</div>
+          <div class="col">Contactanos</div>
+          <div class="col">Prensa</div>
+          <div class="col">Conferencias</div>
+          <div class="col">Terminos y condiciones</div>
+          <div class="col">Privacidad</div>
+          <div class="col">Estudiantes</div>
+        </div>
+      </div>      
+    </footer>
     <script src="bootstrap/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -1,3 +1,7 @@
+main {
+    overflow-x: hidden;
+}
+
 .imgFondo {
     background-image: url("assets/hawaii.jpg");
     background-position: center;
@@ -17,4 +21,14 @@
     padding-left: var(--bs-btn-padding-x);
     padding-right: var(--bs-btn-padding-x);
     font-size: var(--bs-btn-font-size);
+}
+
+.bottom-dashed {
+    text-decoration: none;
+    border-bottom: 2px dotted black;
+}
+
+.bg-footer{
+    background-color: #185076;   
+    height: 12vh;
 }
