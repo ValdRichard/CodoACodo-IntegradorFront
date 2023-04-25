@@ -1,10 +1,9 @@
-.bg-image {
-    background-image: url('assets/ba1.jpg');
-    background-size: cover;
+.imgFondo {
+    background-image: url("assets/hawaii.jpg");
     background-position: center;
-    height: 85vh;
-  }
-
-.text-container{
-    text-align: right;
-}
+    background-size: cover;
+    height: 90vh;
+    background-color: rgb(66, 63, 63);
+    background-blend-mode: soft-light;
+    
+ }
