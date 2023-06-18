@@ -32,3 +32,19 @@ main {
     background-color: #185076;   
     height: 12vh;
 }
+
+.green{
+    color: rgb(4, 202, 4) ;
+}
+
+.subtitle{
+    font-size: .75rem;
+    position: absolute; 
+    bottom: 0;
+}
+
+#boxes .card{
+    border-radius: 0;
+    width: 15rem; 
+    height: 13rem;
+}
